@@ -38,6 +38,9 @@
   
   main {
     display: block;
+    margin-left: 100px;
+    
+    padding: 0px 10px;
   }
   
   /**
@@ -48,6 +51,7 @@
   h1 {
     font-size: 2em;
     margin: 0.67em 0;
+    margin-left: 100px;
   }
   
   /* Grouping content
@@ -155,6 +159,8 @@
   
   img {
     border-style: none;
+    width: 100%;
+    height: auto;
   }
   
   /* Forms
@@ -359,9 +365,10 @@
 
   .pagewrapper {
       background: url(http://www.csszengarden.com/200/pics/content_background.jpg) no-repeat top left;
-      padding: 0 175px 0 110px;
+      padding: 0 100px 0 110px;
       margin: 0;
       position: relative;
+      text-align: justify;
   }
 
   #css-zen-garden {
@@ -373,4 +380,14 @@
     padding: 0;
   }
 
-  
+  .sidenav {
+      height: 100%;
+      width: 160px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #2baffa;
+      overflow-x: hidden;
+      padding-top: 20px;
+  }
