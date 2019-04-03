@@ -27,7 +27,7 @@
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: #2baffa url(http://www.csszengarden.com/200/pics/content_background.jpg) repeat-y top left;
-    color: #555753;
+    color: rgb(20, 34, 34);
     font: 75% Verdana, sans-serif;
     line-height: 1.88889;
   }
@@ -371,7 +371,7 @@
       text-align: justify;
   }
 
-  #css-zen-garden {
+  #overall {
     background: #2baffa url(http://www.csszengarden.com/200/pics/content_background.jpg) repeat-y top left;
     font-size: 0.8em;
     color: rgb(20, 34, 34);
@@ -381,13 +381,20 @@
   }
 
   .sidenav {
+      background: transparent;
       height: 100%;
       width: 160px;
       position: fixed;
       z-index: 1;
       top: 0;
       left: 0;
-      background-color: #2baffa;
+      
       overflow-x: hidden;
       padding-top: 20px;
+  }
+
+  #title {
+        font-family: 'Permanent Marker', cursive;
+        color: rgb(20, 34, 34);
+        font-size: 35px;
   }
