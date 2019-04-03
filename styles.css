@@ -187,6 +187,12 @@
     width: 600px;
     height: 424px;
   }
+
+  figure {
+    border-style: none;
+    width: 600px;
+    height: 424px;
+  }
   
   /* Forms
      ========================================================================== */
